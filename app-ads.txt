@@ -1,0 +1,17 @@
+# app-ads.txt — ByteConstellation
+#
+# Ce fichier declare qui a le droit de vendre l'inventaire publicitaire des
+# applications ByteConstellation. Sans lui, une partie des acheteurs refuse
+# d'enchérir et le revenu baisse ; avec un fichier faux, AdMob signale l'app.
+#
+# A COMPLETER : remplacer pub-0000000000000000 par votre identifiant AdMob
+# reel, visible dans AdMob > Parametres > Informations sur le compte
+# (format : pub- suivi de seize chiffres).
+#
+# Ce fichier doit etre servi a la racine du domaine declare dans la fiche Play
+# de l'application, c'est-a-dire https://VOTRE-DOMAINE/app-ads.txt
+#
+# Verification : AdMob > Applications > app-ads.txt (24 a 48 h apres la mise en
+# ligne).
+
+google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
