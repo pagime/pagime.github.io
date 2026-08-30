@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Corner — Politique de confidentialité</title>
+<style>
+  :root {
+    --ground: #FFFFFF; --ink: #1F1817; --soft: #5A4E4C;
+    --line: #EBDEDC; --accent: #B03A32;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --ground: #141110; --ink: #EDE2E0; --soft: #C9B8B6; --line: #2B2120; --accent: #E89C95; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--ground); color: var(--ink);
+    font: 16px/1.65 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 22px 80px; }
+  h1 { font-size: 30px; line-height: 1.15; margin: 0 0 6px; letter-spacing: -.02em; }
+  .date { color: var(--soft); font-size: 14px; margin: 0 0 34px; }
+  h2 { font-size: 20px; margin: 38px 0 10px; letter-spacing: -.01em; }
+  h3 { font-size: 16px; margin: 24px 0 6px; }
+  p, li { max-width: 66ch; }
+  ul { padding-left: 20px; }
+  li { margin: 6px 0; }
+  a { color: var(--accent); }
+  .key {
+    border: 1px solid var(--line); border-left: 3px solid var(--accent);
+    padding: 18px 20px; margin: 24px 0; border-radius: 3px;
+  }
+  .key p { margin: 0; font-size: 17px; }
+  hr { border: none; border-top: 1px solid var(--line); margin: 56px 0 40px; }
+  table { border-collapse: collapse; width: 100%; margin: 16px 0; font-size: 15px; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--soft); font-weight: 600; }
+  code { background: rgba(128,128,128,.12); padding: 1px 5px; border-radius: 3px; font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Corner — Politique de confidentialité</h1>
+<p class="date">Dernière mise à jour : 30 août 2026 · Éditeur : ByteConstellation</p>
+
+<div class="key">
+  <p><strong>Vos séances ne quittent jamais votre téléphone.</strong> Corner n'a pas
+  de compte, pas de serveur, et n'envoie aucune de vos données nulle part.</p>
+</div>
+
+<h2>Ce que Corner enregistre, et où</h2>
+
+<p>Ce que vous réglez et ce que vous enregistrez — nombre de rounds, durées,
+niveau, séances nommées, combinaisons que vous écrivez vous-même — est stocké
+<strong>uniquement dans la mémoire de votre téléphone</strong>, dans l'espace privé
+réservé à l'application.</p>
+
+<p>Ces informations ne sont ni transmises, ni consultées, ni sauvegardées sur un
+serveur. L'éditeur n'y a pas accès. Elles disparaissent si vous désinstallez
+l'application.</p>
+
+<h3>Le son</h3>
+<p>Corner parle, mais <strong>il n'écoute pas</strong>. Les annonces sont produites
+par la synthèse vocale de votre téléphone, à partir de textes contenus dans
+l'application. La cloche est calculée par l'application elle-même. Corner ne
+demande pas la permission du microphone et n'y a aucun accès.</p>
+
+<h3>Les sauvegardes</h3>
+<p>La fonction « Sauvegarder » crée un fichier que <strong>vous</strong> placez où
+vous le souhaitez, par le sélecteur de fichiers du système. Ce fichier vous
+appartient ; l'application ne l'envoie nulle part et n'en garde pas de copie.</p>
+
+<h3>La notification pendant la séance</h3>
+<p>Pendant une séance, Corner affiche une notification persistante. Elle sert à
+une seule chose : permettre au chronomètre de continuer à tourner écran éteint,
+téléphone dans la poche. Sans elle, Android arrête l'application au bout de
+quelques minutes. Elle ne contient que le round en cours et le temps restant, et
+rien n'est envoyé nulle part pour la produire.</p>
+
+<h2>Ce que des services tiers collectent</h2>
+
+<p>Corner utilise deux services de Google. Ce sont les seuls tiers en présence, et
+ils sont la seule raison pour laquelle l'application accède au réseau.</p>
+
+<table>
+  <tr><th>Service</th><th>Ce qu'il collecte</th><th>Pourquoi</th></tr>
+  <tr>
+    <td><strong>Google AdMob</strong></td>
+    <td>Identifiant publicitaire du téléphone, données d'utilisation et de
+    diagnostic, adresse IP approximative</td>
+    <td>Afficher la bannière de la version gratuite</td>
+  </tr>
+  <tr>
+    <td><strong>Google Play Billing</strong></td>
+    <td>L'achat lui-même, traité par Google</td>
+    <td>Permettre l'achat de la version complète</td>
+  </tr>
+</table>
+
+<h3>Publicité et consentement</h3>
+<p>Si vous vous trouvez dans l'Espace économique européen, au Royaume-Uni ou en
+Suisse, un formulaire de consentement s'affiche <strong>avant toute requête
+publicitaire</strong>. Votre choix est conservé et vous pouvez y revenir à tout
+moment depuis <em>Réglages → Confidentialité → Consentement publicitaire</em>.</p>
+
+<p>Si vous achetez la version complète, <strong>le module publicitaire n'est plus
+démarré du tout</strong> : aucune requête n'est émise, et le formulaire de
+consentement ne vous est plus proposé.</p>
+
+<p><strong>Aucune publicité n'est affichée pendant une séance.</strong> La bannière
+n'existe que sur les écrans de réglage, jamais sur l'écran du chronomètre.</p>
+
+<p>Détail de ce que collecte Google :
+<a href="https://policies.google.com/technologies/partner-sites">Comment Google
+utilise les données</a>.</p>
+
+<h3>Paiement</h3>
+<p>L'achat est entièrement traité par Google Play. <strong>Corner ne voit ni votre
+moyen de paiement, ni votre nom, ni votre adresse</strong> — l'application reçoit
+seulement l'information « cet appareil a acheté » ou « il n'a pas acheté ».</p>
+
+<h2>Ce que Corner ne fait pas</h2>
+<ul>
+  <li>Aucun compte, aucune inscription, aucune adresse électronique demandée.</li>
+  <li>Aucun outil de mesure d'audience ni de suivi de comportement.</li>
+  <li>Aucune vente ni aucun partage de vos données. Il n'y a rien à vendre :
+  elles ne sortent pas du téléphone.</li>
+  <li>Aucune localisation, aucun contact, aucun microphone, aucune caméra,
+  aucun capteur de fréquence cardiaque.</li>
+</ul>
+
+<h2>Permissions demandées</h2>
+<table>
+  <tr><th>Permission</th><th>À quoi elle sert</th></tr>
+  <tr><td><code>FOREGROUND_SERVICE</code><br><code>FOREGROUND_SERVICE_MEDIA_PLAYBACK</code></td>
+      <td>Faire tourner le chronomètre écran éteint et laisser les annonces
+      sonores se déclencher. C'est la fonction même de l'application.</td></tr>
+  <tr><td><code>POST_NOTIFICATIONS</code></td>
+      <td>Afficher la notification de séance. Demandée au démarrage de votre
+      première séance, jamais au lancement. Un refus n'empêche pas d'utiliser
+      l'application, mais le chronomètre risque alors d'être arrêté par Android
+      quand l'écran s'éteint.</td></tr>
+  <tr><td><code>INTERNET</code><br><code>ACCESS_NETWORK_STATE</code></td>
+      <td>Uniquement à AdMob et à Google Play. Aucune donnée de l'application n'y
+      transite.</td></tr>
+  <tr><td><code>AD_ID</code></td>
+      <td>Identifiant publicitaire, utilisé par AdMob dans la version gratuite.</td></tr>
+</table>
+
+<h2>Vos droits</h2>
+<p>Vos données étant sur votre téléphone et nulle part ailleurs, vous en avez le
+contrôle direct : les modifier ou les supprimer dans l'application, les exporter
+par la sauvegarde, ou tout effacer en désinstallant.</p>
+
+<p>Pour les données collectées par Google (identifiant publicitaire), vos droits
+d'accès, de rectification et d'effacement s'exercent auprès de Google. Vous
+pouvez aussi réinitialiser ou supprimer l'identifiant publicitaire dans les
+réglages Android de votre téléphone.</p>
+
+<h2>Un mot sur l'entraînement</h2>
+<p>Corner est un chronomètre. Il ne donne pas de conseil médical, ne mesure aucune
+donnée de santé, et ne sait rien de votre condition physique. Les combinaisons
+proposées sont des exercices de boxe courants ; si vous avez un doute sur votre
+aptitude à les exécuter, demandez à un entraîneur ou à un médecin.</p>
+
+<h2>Enfants</h2>
+<p>Corner n'est pas destinée aux enfants de moins de treize ans et ne collecte
+sciemment aucune donnée les concernant.</p>
+
+<h2>Modifications</h2>
+<p>Toute modification de cette politique sera publiée sur cette page, avec sa
+date. Un changement qui élargirait la collecte serait signalé dans
+l'application.</p>
+
+<h2>Contact</h2>
+<p>Pour toute question : <a href="mailto:pablomzpv@gmail.com">pablomzpv@gmail.com</a></p>
+
+<hr>
+
+<h1>Corner — Privacy Policy</h1>
+<p class="date">Last updated: 30 August 2026 · Publisher: ByteConstellation</p>
+
+<div class="key">
+  <p><strong>Your sessions never leave your phone.</strong> Corner has no account,
+  no server, and sends none of your data anywhere.</p>
+</div>
+
+<h2>What Corner stores, and where</h2>
+<p>What you set and what you save — round count, durations, level, named sessions,
+combinations you write yourself — is stored <strong>only in your phone's
+memory</strong>, in the app's private storage.</p>
+<p>This information is never transmitted, accessed or backed up to a server. The
+publisher has no access to it. It is gone if you uninstall the app.</p>
+
+<h3>Sound</h3>
+<p>Corner speaks, but <strong>it does not listen</strong>. Announcements are
+produced by your phone's own text-to-speech engine from text contained in the app.
+The bell is computed by the app itself. Corner does not request the microphone
+permission and has no access to it.</p>
+
+<h3>Backups</h3>
+<p>The "Back up" feature creates a file that <strong>you</strong> place wherever you
+choose, using the system file picker. That file is yours; the app never uploads it
+and keeps no copy.</p>
+
+<h3>The notification during a session</h3>
+<p>During a session, Corner shows an ongoing notification. It serves one purpose:
+letting the timer keep running with the screen off and the phone in your pocket.
+Without it, Android stops the app after a few minutes. It contains only the
+current round and the time left, and nothing is sent anywhere to produce it.</p>
+
+<h2>What third-party services collect</h2>
+<p>Corner uses two Google services. They are the only third parties involved, and
+the only reason the app accesses the network at all.</p>
+
+<table>
+  <tr><th>Service</th><th>What it collects</th><th>Why</th></tr>
+  <tr>
+    <td><strong>Google AdMob</strong></td>
+    <td>Device advertising ID, app usage and diagnostics, approximate IP address</td>
+    <td>To show the banner in the free version</td>
+  </tr>
+  <tr>
+    <td><strong>Google Play Billing</strong></td>
+    <td>The purchase itself, handled by Google</td>
+    <td>To allow buying the full version</td>
+  </tr>
+</table>
+
+<h3>Advertising and consent</h3>
+<p>If you are in the European Economic Area, the United Kingdom or Switzerland, a
+consent form is shown <strong>before any ad request</strong>. Your choice is stored
+and you can revisit it at any time under <em>Settings → Privacy → Ad
+consent</em>.</p>
+<p>If you buy the full version, <strong>the advertising module is never started at
+all</strong>: no request is made, and the consent form is no longer shown.</p>
+<p><strong>No ad is ever shown during a session.</strong> The banner exists only on
+the setup screens, never on the timer screen.</p>
+<p>Details of what Google collects:
+<a href="https://policies.google.com/technologies/partner-sites">How Google uses
+data</a>.</p>
+
+<h3>Payment</h3>
+<p>Purchases are handled entirely by Google Play. <strong>Corner never sees your
+payment method, your name or your address</strong> — the app only receives whether
+this device has purchased or not.</p>
+
+<h2>What Corner does not do</h2>
+<ul>
+  <li>No account, no sign-up, no email address requested.</li>
+  <li>No analytics and no behavioural tracking.</li>
+  <li>No selling or sharing of your data. There is nothing to sell: it never
+  leaves the phone.</li>
+  <li>No location, no contacts, no microphone, no camera, no heart-rate sensor.</li>
+</ul>
+
+<h2>Your rights</h2>
+<p>Because your data is on your phone and nowhere else, you control it directly:
+edit or delete it in the app, export it with the backup feature, or erase
+everything by uninstalling.</p>
+<p>For data collected by Google (advertising ID), your rights of access,
+rectification and erasure are exercised with Google. You can also reset or delete
+the advertising ID in your Android settings.</p>
+
+<h2>A word about training</h2>
+<p>Corner is a timer. It gives no medical advice, measures no health data, and
+knows nothing about your fitness. The combinations it calls out are common boxing
+drills; if you have any doubt about your ability to perform them, ask a coach or a
+doctor.</p>
+
+<h2>Children</h2>
+<p>Corner is not directed at children under thirteen and knowingly collects no data
+about them.</p>
+
+<h2>Changes</h2>
+<p>Any change to this policy will be published on this page with its date. A change
+that would widen collection would be announced in the app.</p>
+
+<h2>Contact</h2>
+<p>Questions: <a href="mailto:pablomzpv@gmail.com">pablomzpv@gmail.com</a></p>
+
+</main>
+</body>
+</html>
